@@ -13,7 +13,6 @@ export const getPokemon = async pokemonName => {
         sprite: response.data.sprites.front_default,
         stats: response.data.stats,
       };
-
       return pokemonObject;
     })
     .catch(error => {
